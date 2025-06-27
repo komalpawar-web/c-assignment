@@ -7,7 +7,6 @@ int main()
     while(n>0)
     {
         rem=n%10;
-        printf("%d  ",rem);
         cnt++;
         n=n/10;
     }
